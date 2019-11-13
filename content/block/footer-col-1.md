@@ -1,3 +1,5 @@
-#### Footer col 1
+#### Contact
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+You can reach me: <br>
+[Facebook](https://www.facebook.com/jessy.pan.942   )
+[Pinterest](https://www.pinterest.se/ejessyp/)

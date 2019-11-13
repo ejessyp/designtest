@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,31 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
+
+    test:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-test    
+
 ---
 Om
 =========================
+This kurs is about technical web design. When I read the catalogues and get totally lost, where is view folder, header.php and footer.php. Instead there are lots of .md files and anax folder and config folder with lots of
+PHP files. What is all this? Then I try to google about framework and markdown and start to watch video from Mikael.
+Ok, the aim is not to understand the whole framework but just to decorate the web with CSS in kmom01
+and get familiar to anax flat framework for future study.
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Link to kursens [Github](https://github.com/dbwebb-se/design).
+<br>
+Link to my [Redovisningssida på Github](https://github.com/ejessyp/designv2).
 
-Skriv några kloka ord om kursen?
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+This picture tells about how all the parts integrated into together to fulfill a web design.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/Web-Design.jpg?w=300 caption="Web Design."]

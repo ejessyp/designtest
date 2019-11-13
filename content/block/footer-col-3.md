@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Om
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+This page is a part of  design  kurs in BTH.
