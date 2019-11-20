@@ -88,6 +88,11 @@ body {
     display: flex;
 }
 
+.figure + p::first-letter {
+    font-size: 32px;
+    color: #4f4a41;
+}
+
 .region-main {
     padding-left: 20px;
     flex: 3;

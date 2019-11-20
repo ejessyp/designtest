@@ -1,0 +1,75 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .rm-small {
+        display: block;
+    }
+
+    .rm-desktop {
+        display: none;
+    }
+// let the main region to show in column
+    .inner-wrap-main .row {
+        flex-direction: column;
+    }
+
+    .region-sidebar-right,
+    .region-sidebar-left {
+        display: none;
+    }
+
+    .site-logo-text {
+        font-size: 1em;
+    }
+// let the footer region to show div default block mode, to remove float
+    .footer-column {
+        clear: both;
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .rm-desktop a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+    .site-logo-text {
+        font-size: 1em;
+    }
+
+    .region-header-col-1 {
+        width: 15%;
+    }
+
+    .region-header-col-3 {
+        width: 10%;
+    }
+
+    .region-header-col-2 {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .rm-small {
+        display: none;
+    }
+}

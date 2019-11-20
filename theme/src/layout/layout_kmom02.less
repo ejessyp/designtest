@@ -1,0 +1,214 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ form {
+     padding: 30px;
+ }
+
+ .outer-wrap {
+     width: 100%;
+ }
+
+ .inner-wrap {
+     margin: 0 auto;
+     width: 80%
+ }
+
+ .wrap-all {
+     margin: 0 auto;
+ }
+
+ /* header */
+ .site-logo {
+     display: none;
+ }
+
+ .my-navbar {
+     list-style: none;
+ }
+
+ .my-navbar li {
+     display: inline;
+ }
+
+ .rm-default a {
+     display: inline;
+ }
+
+.region-breadcrumb li {
+    display: inline;
+}
+
+.region-breadcrumb li a {
+    color: #4f4a41;
+}
+
+.flashmessage {
+    border: solid 1px blue;
+}
+
+ .next-previous {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+ }
+
+.toc li a {
+    color: #4f4a41;
+}
+
+.toc li a:hover {
+    background-color: yellow;
+}
+
+.outer-wrap-header {
+    background-color: #d6d3c4;
+    #design-mixin.clearfix();
+}
+
+.region-header-col-2 {
+    padding-top: 15px;
+}
+
+.inner-wrap-header {
+    width: 100%;
+}
+
+.rm-desktop ul {
+    background-color: #d6d3c4;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.rm-default ul li {
+    padding: 5px;
+    box-shadow: none;
+}
+.rm-desktop ul li a:hover {
+    color: yellow;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 60%;
+}
+
+/* main */
+.inner-wrap-main {
+    padding: 30px 0;
+}
+
+.inner-wrap-main .row {
+    display: flex;
+}
+
+.figure + p::first-letter {
+    font-size: 32px;
+    color: #4f4a41;
+}
+
+.region-main {
+    padding-left: 20px;
+    flex: 3;
+}
+
+.region-sidebar-right {
+    flex :1;
+}
+
+.region-sidebar-left {
+    flex :1;
+}
+/* ignoring the flex in the stylechooser page */
+.route-style .inner-wrap-main .row {
+    display: block;
+}
+
+.region-sidebar-right .block {
+    padding: 20px;
+}
+
+.quest {
+    list-style: initial;
+}
+
+.answer {
+    padding: 5px;
+}
+
+.byline {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.me {
+    width: 70px;
+    height: auto;
+    border-radius: 20px;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+/* footer */
+
+.outer-wrap-footer {
+    background-color: #4f4a41;
+}
+
+.inner-wrap-footer {
+    max-width: 100%;
+}
+
+.region-footer {
+    color: #fff;
+    text-align: center;
+}
+
+.region-footer a {
+    color: #fff;
+}
+
+.footer-column {
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.site-footer {
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.site-footer p {
+    padding: 20px;
+}
