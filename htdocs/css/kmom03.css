@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom02.
+ * Stylesheet for design kmom03.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4741,6 +4741,306 @@ template {
  * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
  */
 /**
+ * Import the vertical grid.
+ */
+/**
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
+/* this is vgrid less */
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  margin-bottom: 12px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  padding: 30px;
+}
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+.vgrid .inner-wrap {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
+}
+.vgrid .inner-wrap.inner-wrap-header,
+.vgrid .inner-wrap.inner-wrap-footer {
+  background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+}
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header,
+  .vgrid .inner-wrap.inner-wrap-footer {
+    background-size: 100% auto;
+  }
+}
+.inner-wrap-header,
+.inner-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95%;
+}
+.wrap-all {
+  margin: 0 auto;
+}
+/* header */
+.site-logo {
+  display: none;
+}
+.my-navbar {
+  list-style: none;
+}
+.my-navbar li {
+  display: inline;
+}
+.rm-default a {
+  display: inline;
+}
+.region-breadcrumb li {
+  display: inline;
+}
+.region-breadcrumb {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-flash {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.flashmessage {
+  border: solid 1px blue;
+}
+.next-previous {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.toc li a:hover {
+  background-color: yellow;
+}
+.outer-wrap-header {
+  background-color: #d6d3c4;
+}
+.rm-desktop ul li a:hover {
+  color: yellow;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-header-col-2 {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.site-logo-text a {
+  text-decoration: none;
+}
+.site-logo-text {
+  font-size: 2.5em;
+}
+/* main */
+.figure + p::first-letter {
+  font-size: 32px;
+  color: #4f4a41;
+}
+.region-after-main {
+  display: inline;
+  float: left;
+  width: 73.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 13.02083333%;
+}
+.region-main {
+  display: inline;
+  float: left;
+  width: 73.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 17.1875%;
+}
+.region-main.has-sidebar {
+  margin-left: 0.52083333%;
+}
+.region-main.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 69.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-main.has-sidebar-right.has-sidebar-left {
+  display: inline;
+  float: left;
+  width: 57.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.region-sidebar-left {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 19.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+/* ignoring the flex in the stylechooser page */
+.quest {
+  list-style: initial;
+}
+.byline {
+  border: 1px solid #4f4a41;
+  border-radius: 20px;
+}
+.me {
+  width: 70px;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+}
+.left {
+  float: left;
+}
+/* footer */
+.outer-wrap-footer {
+  background-color: #4f4a41;
+}
+.region-footer {
+  color: #fff;
+  text-align: center;
+}
+.region-footer a {
+  color: #fff;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  padding: 20px;
+}
+.site-footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  clear: both;
+  padding-bottom: 20px;
+}
+.site-footer p {
+  padding: 20px;
+}
+/**
+ * Import the typographic grid.
+ */
+/**
+ * Typographic font families to choose from.
+ */
+/**
+ * Typographic defaults.
+ */
+#desinax-hgrid {
+  /**
+     * Mixins used when setting default fonts
+     */
+  /**
+     * Settings for headings H1-H6
+     */
+  /**
+     * Text elements
+     */
+  /**
+     * Display source code.
+     */
+  /**
+     * Lists
+     */
+  /**
+     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+     * on table cells has to be 1.5*@magic-number.
+     */
+  /**
+     * More typography elements
+     */
+  /**
+     * Enable all default typographic elements.
+     */
+}
+/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -4754,7 +5054,8 @@ body {
   padding: 0;
   color: #4f4a41;
   background-color: beige;
-  font: 100.01%/1 serif;
+  font: 100.01%/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body a {
   color: #4f4a41;
@@ -4764,6 +5065,293 @@ img {
 }
 li {
   list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+  margin: 0;
+}
+h1 {
+  font-size: 2.375em;
+  line-height: 1.26315789;
+  font-weight: normal;
+  border-bottom: 1px solid #666;
+  margin-bottom: 23px;
+}
+h1 ~ h1,
+h1 ~ h2,
+h1 ~ h3,
+h1 ~ h4,
+h1 ~ h5,
+h1 ~ h6 {
+  margin-top: 48px;
+}
+h1 + h2 {
+  margin-top: 24px;
+}
+h2 {
+  font-size: 1.875em;
+  line-height: 1.6;
+  font-weight: normal;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #CCC;
+}
+h2 + h3 {
+  margin-top: 24px;
+}
+h3 {
+  font-size: 1.75em;
+  line-height: 1.71428571;
+  font-weight: normal;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h3 + h4 {
+  margin-top: 24px;
+}
+h4 {
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h4 + h5 {
+  margin-top: 24px;
+}
+h5 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h5 + h6 {
+  margin-top: 24px;
+}
+h6 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+p {
+  margin-bottom: 24px;
+}
+small,
+.small,
+.smaller {
+  font-size: 0.875em;
+}
+strong,
+b {
+  font-weight: bold;
+}
+mark {
+  color: #000;
+  background-color: #ff9;
+}
+abbr[title],
+dfn[title] {
+  text-decoration: dotted underline;
+}
+em,
+i,
+dfn {
+  font-style: italic;
+}
+sub,
+sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+blockquote {
+  border-left: 4px solid #eee;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-bottom: 24px;
+}
+pre,
+code,
+kbd,
+samp,
+.code {
+  font-family: "monospace";
+}
+code,
+samp {
+  border: 1px solid #ccc;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+code {
+  background-color: #eee;
+}
+pre,
+div.code,
+pre code {
+  font-size: 1em;
+  line-height: 1.5;
+  white-space: pre;
+}
+pre {
+  margin-bottom: 24px;
+}
+pre code {
+  display: block;
+  overflow: auto;
+}
+div.code,
+pre code {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 0.5em;
+  background-color: #eee;
+}
+ul,
+ol {
+  margin-bottom: 24px;
+  padding-left: 1.5em;
+}
+ul p,
+ol p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin: 0;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+dl {
+  margin-bottom: 24px;
+}
+dl.horizontal dt {
+  clear: left;
+  float: left;
+  width: 7em;
+}
+dl.horizontal dd {
+  margin-left: 8em;
+  display: block;
+}
+dd {
+  margin-left: 1.5em;
+}
+article table,
+.table,
+.table1,
+.table2 {
+  margin-bottom: 24px;
+}
+table.full-width,
+article .table,
+.table,
+.table2 {
+  width: 100%;
+}
+article table,
+.table,
+.table2 {
+  border-collapse: collapse;
+  /*
+            tfoot {
+            }
+            */
+}
+article table caption,
+.table caption,
+.table2 caption {
+  font-size: 0.875em;
+  line-height: 1.71428571;
+  text-align: left;
+  font-style: italic;
+}
+article table thead,
+.table thead,
+.table2 thead {
+  box-shadow: 0 1px 0 #aaa;
+}
+article table th,
+.table th,
+.table2 th {
+  vertical-align: bottom;
+  font-weight: bold;
+  text-align: left;
+}
+article table th,
+.table th,
+.table2 th,
+article table td,
+.table td,
+.table2 td {
+  padding: 6px;
+}
+article table tr,
+.table tr,
+.table2 tr {
+  box-shadow: 0 1px 0 #ccc;
+}
+article table tr:hover,
+.table tr:hover,
+.table2 tr:hover {
+  color: #000;
+  background-color: #f6f6f6;
+  box-shadow: 0 1px 0 #666;
+}
+table.striped tbody tr:nth-child(even) td,
+table.striped tbody tr.even td {
+  background-color: #fafafa;
+}
+hr {
+  position: relative;
+  top: -2px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 35px;
+  margin-bottom: 36px;
+}
+hr::after {
+  content: "§";
+  position: relative;
+  top: -0.7em;
+  left: 50%;
+  padding: 0 0.25em;
+  background-color: #fff;
+}
+.hgrid .inner-wrap {
+  background-image: url("../img/magic-number-24px.png");
 }
 /**
  * A responsive menu.
@@ -4994,242 +5582,56 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-form {
-  padding: 30px;
-}
-.outer-wrap {
-  width: 100%;
-}
-.inner-wrap {
-  margin: 0 auto;
-  width: 80%;
-}
-.wrap-all {
-  margin: 0 auto;
-}
-/* header */
-.site-logo {
-  display: none;
-}
-.my-navbar {
-  list-style: none;
-}
-.my-navbar li {
-  display: inline;
-}
-.rm-default a {
-  display: inline;
-}
-.region-breadcrumb li {
-  display: inline;
-}
-.flashmessage {
-  border: solid 1px blue;
-}
-.next-previous {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-}
-.toc li a:hover {
-  background-color: yellow;
-}
-.outer-wrap-header {
-  background-color: #d6d3c4;
-}
-.outer-wrap-header::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.region-header-col-2 {
-  padding-top: 15px;
-}
-.inner-wrap-header {
-  width: 100%;
-}
-.rm-desktop ul {
-  background-color: #d6d3c4;
-  width: 100px;
-  margin-top: 5px;
-}
-.rm-default ul li {
-  padding: 5px;
-  box-shadow: none;
-}
-.rm-desktop ul li a:hover {
-  color: yellow;
-}
-.region-header-col-1,
-.region-header-col-3 {
-  float: left;
-  width: 20%;
-  margin-right: 10px;
-}
-.region-header-col-2 {
-  float: left;
-  width: 60%;
-}
-.site-logo-text a {
-  text-decoration: none;
-}
-.site-logo-text {
-  font-size: 2.5em;
-}
-/* main */
-.inner-wrap-main {
-  padding: 30px 0;
-}
-.inner-wrap-main .row {
-  display: flex;
-}
-.figure + p::first-letter {
-  font-size: 32px;
-  color: #4f4a41;
-}
-.region-main {
-  padding-left: 20px;
-  flex: 3;
-}
-.region-sidebar-right {
-  flex: 1;
-}
-.region-sidebar-left {
-  flex: 1;
-}
-/* ignoring the flex in the stylechooser page */
-.route-style .inner-wrap-main .row {
-  display: block;
-}
-.region-sidebar-right .block {
-  padding: 20px;
-}
-.quest {
-  list-style: initial;
-}
-.answer {
-  padding: 5px;
-}
-.byline {
-  margin: 0 auto;
-  border: 1px solid #4f4a41;
-  border-radius: 20px;
-  margin: 10px;
-  overflow: hidden;
-}
-.me {
-  width: 70px;
-  height: auto;
-  border-radius: 20px;
-  float: left;
-}
-.left {
-  float: left;
-}
-/* footer */
-.outer-wrap-footer {
-  background-color: #4f4a41;
-}
-.inner-wrap-footer {
-  max-width: 100%;
-}
-.region-footer {
-  color: #fff;
-  text-align: center;
-}
-.region-footer a {
-  color: #fff;
-}
-.footer-column {
-  width: 30%;
-  float: left;
-  padding: 20px;
-}
-.site-footer {
-  clear: both;
-  padding-bottom: 20px;
-}
-.site-footer p {
-  padding: 20px;
-}
-/**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
+* Style for responsive menu
+*/
+@media screen and (max-width: 1000px) {
+  .region-main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
 }
-@media screen and (max-width: 620px) {
-  .rm-small {
-    display: block;
+@media screen and (max-width: 600px) {
+  .region-main.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
-  .rm-desktop {
-    display: none;
-  }
-  .inner-wrap-main .row {
-    flex-direction: column;
-  }
-  .region-sidebar-right,
-  .region-sidebar-left {
-    display: none;
-  }
-  .site-logo-text {
-    font-size: 1em;
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-right: 0.52083333%;
+    margin-left: 0.52083333%;
   }
   .footer-column {
-    clear: both;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 920px) {
-  .rm-desktop a {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-  h1 {
-    font-size: 2em;
-    margin-bottom: 1.75rem;
-  }
-  h4 {
-    font-size: 1.3em;
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
   .site-logo-text {
     font-size: 1em;
   }
-  .region-header-col-1 {
-    width: 15%;
-  }
-  .region-header-col-3 {
-    width: 10%;
-  }
-  .region-header-col-2 {
-    width: 75%;
+}
+@media screen and (max-width: 700px) {
+  .region-main.has-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
 }
-@media screen and (min-width: 500px) {
-  .rm-small {
-    display: none;
-  }
-}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
 /**
  * Show off the regions used in the website, to ease styling.
  */

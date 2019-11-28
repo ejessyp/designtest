@@ -4831,7 +4831,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  min-width: 10em;
+  min-width: 4em;
 }
 .rm-default a {
   display: block;
@@ -5130,11 +5130,10 @@ form {
 }
 .byline {
   margin: 0 auto;
-  width: 70%;
-  height: auto;
   border: 1px solid #4f4a41;
   border-radius: 20px;
   margin: 10px;
+  overflow: hidden;
 }
 .me {
   width: 70px;

@@ -1,0 +1,45 @@
+/**
+* Style for responsive menu
+*/
+
+
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .region-main {
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    .region-sidebar-right {
+        // display: none;
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .site-logo-text {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .region-main {
+        &.has-sidebar-right.has-sidebar-left {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    // .region-sidebar-right.has-sidebar-left,
+    // .region-sidebar-left.has-sidebar-right, {
+    //     #desinax-vgrid.column(@columns);
+    //     }
+}

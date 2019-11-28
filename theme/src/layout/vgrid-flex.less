@@ -1,0 +1,224 @@
+/* this is vgrid less */
+// Default grid, change to fit your requirements.
+
+
+.row {
+    #desinax-vgrid.row();
+    background-color: rgba(0, 255, 0, 0.3);
+    margin-bottom: 12px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 30px;
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header,
+    &.inner-wrap-footer {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    #desinax-vgrid.grid(95%); // 100% will overflow
+}
+
+.wrap-all {
+    margin: 0 auto;
+}
+
+/* header */
+.site-logo {
+    display: none;
+}
+
+.my-navbar {
+    list-style: none;
+}
+
+.my-navbar li {
+    display: inline;
+}
+
+.rm-default a {
+    display: inline;
+}
+
+.region-breadcrumb li {
+    display: inline;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
+}
+
+.flashmessage {
+    border: solid 1px blue;
+}
+
+.next-previous {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.toc li a:hover {
+    background-color: yellow;
+}
+
+.outer-wrap-header {
+    background-color: #d6d3c4;
+    // #design-mixin.clearfix();
+}
+
+
+// .rm-desktop ul {
+//     // background-color: #d6d3c4;
+//     background-color: green;
+//     width: 100px;
+//     margin-top: 5px;
+// }
+
+// .rm-default ul li {
+//     padding: 5px;
+//     box-shadow: none;
+// }
+
+.rm-desktop ul li a:hover {
+    color: yellow;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.grid(5);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(14);
+}
+
+.site-logo-text a {
+    text-decoration: none;
+}
+
+.site-logo-text {
+    font-size: 2.5em;
+}
+
+/* main */
+.inner-wrap-main {
+    //padding: 30px 0;
+}
+
+.inner-wrap-main .row {
+    // display: flex;
+}
+
+.figure + p::first-letter {
+    font-size: 32px;
+    color: #4f4a41;
+}
+
+.region-after-main {
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(3);
+}
+
+.region-main {
+    #desinax-vgrid.column(@columns / 2);
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns / 4);
+}
+
+.region-sidebar-left {
+    #desinax-vgrid.column(@columns / 4);
+}
+
+
+/* ignoring the flex in the stylechooser page */
+// .route-style .inner-wrap-main .row {
+//     display: block;
+// }
+
+.region-sidebar-right .block {
+    // padding: 20px;
+}
+
+.quest {
+    list-style: initial;
+}
+
+.answer {
+    // padding: 5px;
+}
+
+.byline {
+    border: 1px solid @fontcolor;
+    border-radius: 20px;
+    // margin: 10px;
+}
+
+.me {
+    width: 70px;
+    height: auto;
+    border-radius: 20px;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+/* footer */
+
+.outer-wrap-footer {
+    background-color: #4f4a41;
+}
+
+.region-footer {
+    // #desinax-vgrid.column(@columns);
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+.region-footer a {
+    color: #fff;
+}
+
+.footer-column {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+// .site-footer {
+//     #desinax-vgrid.column(@columns);
+//     clear: both;
+//     padding-bottom: 20px;
+// }
+
+.site-footer p {
+    padding: 20px;
+}
