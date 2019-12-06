@@ -5645,9 +5645,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     margin-right: 0.52083333%;
   }
 }
-.region-header {
-  font-family: 'Lobster Two', cursive;
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
