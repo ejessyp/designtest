@@ -5389,7 +5389,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  min-width: 4em;
+  min-width: 10em;
 }
 .rm-default a {
   display: block;
