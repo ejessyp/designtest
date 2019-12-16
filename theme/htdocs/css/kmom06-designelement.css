@@ -4886,6 +4886,11 @@ form {
 .rm-desktop ul li a:hover {
   color: yellow;
 }
+.rm-navbar ul li a:hover {
+  transform: scale(1.5, 1.5);
+  color: yellow;
+  transition: 4s;
+}
 .region-header-col-1,
 .region-header-col-3 {
   display: inline;
