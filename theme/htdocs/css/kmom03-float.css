@@ -4869,7 +4869,7 @@ form {
   background-color: yellow;
 }
 .outer-wrap-header {
-  background-color: #d6d3c4;
+  background-image: linear-gradient(white, #90C6E8);
 }
 .rm-desktop ul li a:hover {
   color: yellow;
@@ -4944,7 +4944,7 @@ form {
 .region-sidebar-left {
   display: inline;
   float: left;
-  width: 23.95833333%;
+  width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
@@ -4973,9 +4973,12 @@ form {
 .left {
   float: left;
 }
+.outer-wrap-main {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 /* footer */
 .outer-wrap-footer {
-  background-color: #4f4a41;
+  background-image: linear-gradient(#78BCDF, #B1497E);
 }
 .region-footer {
   color: #fff;
@@ -5003,6 +5006,13 @@ form {
 }
 .site-footer p {
   padding: 20px;
+}
+h1 {
+  text-shadow: 1px 1px 2px beige, 0 0 1em blue, 0 0 0.2em blue;
+}
+.block.toc {
+  box-shadow: 0 0 5px 5px #333;
+  border: 1px white solid;
 }
 /**
  * Import the typographic grid.

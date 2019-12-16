@@ -95,7 +95,7 @@ form {
 }
 
 .outer-wrap-header {
-    background-color: #d6d3c4;
+    background-image: linear-gradient(white, #90C6E8);
     // #design-mixin.clearfix();
 }
 
@@ -181,7 +181,7 @@ form {
 }
 
 .region-sidebar-left {
-    #desinax-vgrid.column(@columns * 1 / 4);
+    #desinax-vgrid.column(5);
     //flex :1;
 }
 
@@ -224,10 +224,15 @@ form {
     float: left;
 }
 
+// kmom06 added
+.outer-wrap-main {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 /* footer */
 
 .outer-wrap-footer {
-    background-color: #4f4a41;
+    background-image: linear-gradient(#78BCDF, #B1497E);
 }
 
 .region-footer {
@@ -252,4 +257,13 @@ form {
 
 .site-footer p {
     padding: 20px;
+}
+
+h1 {
+    text-shadow:  1px 1px 2px beige, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.block.toc {
+    box-shadow: 0 0 5px 5px #333;
+    border: 1px white solid;
 }
