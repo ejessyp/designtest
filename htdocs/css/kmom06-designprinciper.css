@@ -4888,8 +4888,8 @@ form {
 }
 .rm-navbar ul li a:hover {
   transform: scale(1.5, 1.5);
-  color: yellow;
-  transition: 4s;
+  color: #B1497E;
+  transition: 2s;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5513,6 +5513,9 @@ hr::after {
 }
 .hgrid .inner-wrap {
   background-image: url("../img/magic-number-24px.png");
+}
+body {
+  font-weight: bold;
 }
 /**
  * A responsive menu.
