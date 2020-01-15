@@ -20,13 +20,13 @@ form {
 }
 
 .inner-wrap {
-    #desinax-vgrid.grid(1100px);
+    #desinax-vgrid.grid(1320px);
 }
 
 .vgrid .inner-wrap {
     @gridImage: "../img/grid_24x30x10-nomargin.png";
     //@gridImage: "../../img/grid_12x60x20-nomargin.png";
-    #desinax-vgrid.showGrid(@gridImage, 1100px);
+    #desinax-vgrid.showGrid(@gridImage, 1320px);
 
     &.inner-wrap-header,
     &.inner-wrap-footer {
@@ -91,14 +91,15 @@ form {
 // }
 
 .toc li a:hover {
-    background-color: yellow;
+    background-color: #DABFA2;
 }
 
 .outer-wrap-header {
-    background-image: linear-gradient(white, #90C6E8);
+    // background-image: linear-gradient(white, #90C6E8);
     // #design-mixin.clearfix();
+    background-color: #383431;
+    color: #DABFA2;
 }
-
 
 // .rm-desktop ul {
 //     // background-color: #d6d3c4;
@@ -113,26 +114,29 @@ form {
 // }
 
 .rm-desktop ul li a:hover {
-    color: yellow;
+    color: #DABFA2;
 }
 
 // added for komom06 Designprinciper
 .rm-navbar ul li a:hover {
     transform: scale(1.5, 1.5);
-    color: #B1497E;
+    color: #DABFA2;
     transition: 2s;
 }
 
-.region-header-col-1,
-.region-header-col-3 {
-    #desinax-vgrid.column(5);
+.region-header-col-1 {
+    #desinax-vgrid.column(10);
     // float: left;
     // width: 20%;
     // margin-right: 10px;
 }
 
+.region-header-col-3 {
+    #desinax-vgrid.column(2);
+}
+
 .region-header-col-2 {
-    #desinax-vgrid.column(14);
+    #desinax-vgrid.column(12);
     //     padding-top: 15px;
     //     float: left;
     //     width: 60%;
@@ -140,6 +144,7 @@ form {
 
 .site-logo-text a {
     text-decoration: none;
+    color: #DABFA2;
 }
 
 .site-logo-text {
@@ -214,12 +219,6 @@ form {
     // padding: 5px;
 }
 
-.byline {
-    border: 1px solid @fontcolor;
-    border-radius: 20px;
-    // margin: 10px;
-}
-
 .me {
     width: 70px;
     height: auto;
@@ -239,11 +238,12 @@ form {
 /* footer */
 
 .outer-wrap-footer {
-    background-image: linear-gradient(#78BCDF, #B1497E);
+    // background-image: linear-gradient(#78BCDF, #B1497E);
+    background-color: #383431;
 }
 
 .region-footer {
-    color: #fff;
+    color: #DABFA2;
     text-align: center;
 }
 
@@ -257,6 +257,7 @@ form {
 }
 
 .site-footer {
+    color: #DABFA2;
     #desinax-vgrid.column(@columns);
     clear: both;
     padding-bottom: 20px;
@@ -267,7 +268,7 @@ form {
 }
 
 h1 {
-    text-shadow:  1px 1px 2px beige, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow:  1px 1px 2px beige, 0 0 1em #DABFA2, 0 0 0.2em #DABFA2;
 }
 
 .block.toc {

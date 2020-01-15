@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Möbler Solstråle"
 views:
     kursrepo:
         region: sidebar-right
@@ -7,7 +7,7 @@ views:
         data:
             meta:
                 type: single
-                route: block/om-kursrepo
+                route: block/living
 
     redovisa:
         region: sidebar-right
@@ -15,19 +15,18 @@ views:
         data:
             meta:
                 type: single
-                route: block/om-redovisa
-
-    byline:
-        region: after-main
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/byline
+                route: block/kitchen
 ---
-Min me-sida i kursen design
+Welcome to Möbler af Solstråle
 =========================
 
-[FIGURE src=image/me.png?w=200 class="left" caption="A picture of me."]
+[FIGURE src=image/fur1.jpg?w=200 class="left" caption="Living room"]
 
-My name is Pan Qing. I am from Hangzhou, China. I moved to Sweden because of family and now live in a house in Lyckeby. I like music and cooking. I like playing tennis and training in the gym. I like plants, flower arts and especially orchid flowers and succulents. I have been working in Telecom industry for many years but I have always interests in web design. I hope I can become a pro in webprogramming. Let's work together!
+Mr. Ludviga Af Solstråle established a furniture design studio with 5 employees in Stockholm more than 25 years ago, , laying the foundation for our company and now we have 2000 employees all around the world. We are concentrating on high end furniture design and we provide products and solutions for both families and hotels.
+
+Quality assurance and consumer protection are high on the list of values ​​at Solstråle. Sustainability is also one of our main goals. We place great value on the careful use of resources, durability and a good living environment when manufacturing our furnitures. We are using woods that comes with controlled and inspected partners and try to use the woods from nearest place to shorten the transport distance and meantime reduce the grrenhouse gas emissions.
+
+We have a full line of furnitures including: living, dining, kitchen, sleep and outdoor. We can even tailor made the furnitures to match your style. If you are interested in our products, you can visit our stores or have a look of our catalogues. If you want advices, please contact us by phone, email or online chat.
+
+[FIGURE src=image/bedroom.jpg?w=400 class="left w50" caption="Bedroom"]
+[FIGURE src=image/dining.jpg?w=400 class="right w50" caption="Dining room"]

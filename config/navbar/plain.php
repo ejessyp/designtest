@@ -14,11 +14,6 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
-            "text" => "Redovisning",
-            "url" => "redovisning",
-            "title" => "Redovisningstexter från kursmomenten.",
-        ],
-        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
@@ -27,16 +22,6 @@ return [
             "text" => "Styleväljare",
             "url" => "style",
             "title" => "Välj stylesheet.",
-        ],
-        [
-            "text" => "Test",
-            "url" => "test",
-            "title" => "Test.",
-        ],
-        [
-            "text" => "Verktyg",
-            "url" => "verktyg",
-            "title" => "Verktyg och möjligheter för utveckling.",
         ],
     ],
 ];

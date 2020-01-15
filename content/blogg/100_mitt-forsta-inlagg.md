@@ -1,55 +1,38 @@
 ---
 author: Qing Pan
 category:
-    - Landscape
-    - Prague
-published: "2019-12-09"
+    - News
+    - Shanghai
+published: "2020-01-07"
 ---
-Amazing Prague
+New store is opening soon
 ==================================
 
 <figure class="figure left w50">
-    <img src="image/prague.jpg&w=250&h=150" alt="prague" style="border-radius: 20px">
+    <img src="image/shanghai.jpg&w=250&h=150" alt="shanghai" style="border-radius: 20px">
     <figcaption>
-        <p>The view from Charles bridge</p>
+        <p>The night view of Shanghai</p>
     </figcaption>
 </figure>
-Prague, capital city of the Czech Republic, is bisected by the Vltava River. Nicknamed “the City of a Hundred Spires,” it's known for its Old Town Square, the heart of its historic core, with colorful baroque buildings, Gothic churches and the medieval Astronomical Clock, which gives an animated hourly show. Completed in 1402, pedestrian Charles Bridge is lined with statues of Catholic saints. The population: 1.309 million (Jan 1, 2019).
-
-Reference: <a href="https://en.wikipedia.org/wiki/Prague">https://en.wikipedia.org/wiki/Prague</a>
+We are going to open a flagship store in Shanghai, the finance and trade center of China. This store will bring a brandnew experience for the customers. It will show all our update products and customers can design their rooms using our new developed 3D app(drag and drop) together with our desigers.
 
 <!--more-->
-
-Original picture in JPG format in center.   {#anchor-hit}
+Picture of store in Shanghai
 -----------------------------------
-
 <figure class="figure center">
-    <img src="image/prague.jpg" alt="prague" style="border-radius: 20px">
+    <img src="image/store.jpg" alt="store" style="border-radius: 20px">
     <figcaption>
-        <p>The view from Charles bridge, up there is Prague Castle.</p>
+        <p>Picture of store in Shanghai</p>
     </figcaption>
 </figure>
-
-This is taken by HuaWei P20 with daylight, no flash, ISO Speed: 50, Aperture: 1.8, Focal Length: 4.0 mm, Exposure:1/2169, ImageWidth: 3648, ImageHeight: 2736.
-
-
-Cropped picture  {#vad-som}
+In-store services
 -----------------------------------
-<figure class="figure right w50">
-    <img src="image/prague.jpg?&w=400&h=400&crop-to-fit&area=38,20,20,35" alt="prague crop_to_fit" style="border-radius: 20px">
-    <figcaption>
-        <p>Cropped to fit 400px area=38,20,20,35.</p>
-    </figcaption>
-</figure>
-Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text.
+ As more and more customers are turning to online and mobile shopping, why we open a flagship store? It is more than just a store and it can make brand stronger, create an unforgettable experience for shoppers.
 
+"Many brands see in-store services as a way to attract more customers through the door. Fashion retailers H&M, Gap and Uniqlo now offer repairs, personalisation and tailoring services in a bid to undo some of the environmental damage caused by fast fashion. Nordstrom’s flagship store in New York also offers shoe shining, a restaurant and bar.
 
-Filtered picture  {#vad-som}
------------------------------------
-<figure class="figure left w50">
-    <img src="image/prague.jpg?&w=400&h=400&crop-to-fit&area=38,20,20,35&dpr=1.4&f=colorize,255,0,0,0" alt="prague crop_to_fit" style="border-radius: 20px">
-    <figcaption>
-        <p>Added red filter f=colorize,255,0,0,0</p>
-    </figcaption>
-</figure>
-Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text.
+However, leading the way in in-store services has to be London’s Liberty and Harrods, offering nail bars, hair salons, body piercing, florists and beauty spas to attract new customers and keep them onsite for longer.
+Today, if flagship stores are going to act as effective marketing tools, they need to innovate, taking note of their digital competitors to offer exciting, engaging experiences. They need to act more like immersive theatres, creating a magical experience that tourists will go out of their way to visit."
+
+The above is referenced from:
+[Why flagship stores must nail the in-store experience?](https://www.linney.com/flagship-stores-must-nail-store-experience/)

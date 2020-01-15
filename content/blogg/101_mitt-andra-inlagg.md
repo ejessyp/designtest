@@ -1,50 +1,35 @@
 ---
 author: Qing Pan
 category:
-    - Portrait
-    - Boy
-published: "2019-12-09"
+    - Dressing room
+    - Interior Design
+published: "2020-01-07"
 ---
-Portrait
+New lines of dressing room
 ==================================
 <figure class="figure right w50">
-    <img src="image/william.jpg&w=250&h=150" alt="prague" style="border-radius: 20px">
+    <img src="image/dressing1.jpg&w=250&h=150" alt="prague" style="border-radius: 20px">
     <figcaption>
-        <p>A boy.</p>
+        <p>Dressing room FLOW</p>
     </figcaption>
 </figure>
-A photo taken in the photo studio is chosen for this blogg content and it is a portrait on a boy. I am using the same size as the first blogg inlägg. You can see when it is cropped to w=250&h=150, it looks not very clear somehow a little blury. This photo is taken by NIKON D800 indoor with Exposure: 1/160, Aperture: 5.6, Focal Length: 60.0 mm, ISO Speed: 200,  ImageWidth: 2480, ImageHeight: 1860. I will process it in several other styles.
+Dressing room is more and more popular in living. It can make your bedroom cleaner as the clothes has a separate space. The clothes will look better and more organized. Now we will provide a new line of dressing room and it is named FLOW.
+This line looks very concise and flowing and it is very practical as well.
 
 <!--more-->
 
-Original picture in JPG format in center.   {#anchor-hit}
------------------------------------
-
-<figure class="figure center">
-    <img src="image/william.jpg" alt="boy" style="border-radius: 20px">
-    <figcaption>
-        <p>Original picture in JPG format in center</p>
-    </figcaption>
-</figure>
-
-
-Cropped picture with lower quality.  {#anchor-hit}
+Here are more photos  {#vad-som}
 -----------------------------------
 <figure class="figure left w50">
-    <img src="image/william.jpg?&w=200&h=200&crop-to-fit&area=5,30,50,15&sharpen&q=70" alt="prague crop_to_fit" style="border-radius: 20px">
+    <img src="image/dressingroom.jpg?&w=400" style="border-radius: 20px">
     <figcaption>
-        <p>Cropped to fit 200px area=5,30,50,15 sharpen q=70.</p>
+        <p></p>
     </figcaption>
 </figure>
-Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text.
 
-
-Filtered picture  {#vad-som}
------------------------------------
 <figure class="figure right w50">
-    <img src="image/william.jpg?&w=200&h=200&crop-to-fit&area=5,30,50,15&&f=pixelate,4,1" alt="prague crop_to_fit" style="border-radius: 20px">
+    <img src="image/dressing2.jpg?&w=400" style="border-radius: 20px">
     <figcaption>
-        <p>Added f=pixelate,4,1</p>
+        <p></p>
     </figcaption>
 </figure>
-Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text.

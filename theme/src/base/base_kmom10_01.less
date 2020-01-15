@@ -1,0 +1,72 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Roboto&display=swap');
+@bgColorHtml: #424242;
+// @bgColorBody: #FDFCFA;
+@bgColorBody: #424242;
+@colorBody: #333;
+// @fontcolor: #4f4a41;
+@fontcolor: #fff;
+@fontFamilyHeadings: @fontFamilyLobster;
+@fontFamilyBody:     @fontFamilyHelveticaNeue;
+@fontFamilyCode:     "monospace";
+@fontFamilyLobster: 'Lobster Two', cursive;
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+html {
+    overflow-y: scroll;
+    //background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @fontcolor;
+    background-color: @bgColorBody;
+    // background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    font: 100.01%/1 @fontFamilyBody;
+    // Activate the grid base font
+     #desinax-hgrid.font(@fontSizeBody);
+}
+
+body a {
+    color: @fontcolor;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.region-header {
+    font-family: @fontFamilyLobster;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+/// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}

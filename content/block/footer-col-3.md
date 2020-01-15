@@ -1,3 +1,7 @@
-#### Om
+#### About Solstråle
 
-This page is a part of  design  kurs in BTH.
+Our History
+
+Our Concepts
+
+Our Projects

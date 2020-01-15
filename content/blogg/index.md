@@ -30,7 +30,7 @@ views:
                 view: blog-list
 
 ---
-Dagens Bild
+Latest News
 ===========================
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Discover more about latest news and updates from Möbler Solstråle.

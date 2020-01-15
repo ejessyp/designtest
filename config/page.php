@@ -14,13 +14,13 @@ return [
         "data" => [
             "baseTitle" => " | design",
             "bodyClass" => null,
-            "favicon" => "favicon.ico",
+            "favicon" => "favicon_10.png",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom06-designprinciper.min.css",
+                "css/kmom10.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -35,7 +35,7 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
+                "siteLogo"      => "image/theme/favicon_10.png",
                 "siteLogoAlt"   => "Löv",
             ],
         ],
@@ -44,9 +44,9 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
+                "siteLogoText"  => "Möbler Solstråle",
+                // "siteLogoTextIcon" => "image/theme/favicon_10.png",
+                // "siteLogoTextIconAlt" => "Solstråle-bild",
             ],
         ],
         [

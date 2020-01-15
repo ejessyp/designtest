@@ -1,42 +1,43 @@
 ---
 views:
-    kursrepo:
-        region: sidebar-right
-        template: anax/v2/block/default
+    flash:
+        region: flash
+        template: anax/v2/image/default
         data:
-            meta:
-                type: single
-                route: block/om-kursrepo
-
-    redovisa:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/om-redovisa
-
-    test:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/om-test    
-
+            src: "image/lobby.jpg?&width=1320&height=150&crop-to-fit&area=40,5,10,5"
 ---
-Om
+Om kunden
 =========================
-This kurs is about technical web design. When I read the catalogues and get totally lost, where is view folder, header.php and footer.php. Instead there are lots of .md files and anax folder and config folder with lots of
-PHP files. What is all this? Then I try to google about framework and markdown and start to watch video from Mikael.
-Ok, the aim is not to understand the whole framework but just to decorate the web with CSS in kmom01
-and get familiar to anax flat framework for future study.
+The customer of Möbler Solstråle has expressed the requirements for the website: clean, user friendly, comfortable and elegant. It is not a webshop but a window of the company to transport message to the users. It will make the brand stronger and give new experiences to the users.
 
-Link to kursens [Github](https://github.com/dbwebb-se/design).
-<br>
-Link to my [Redovisningssida på Github](https://github.com/ejessyp/designv2).
+Om temat
+=========================
+[FIGURE src=image/snapshot.jpg?w=900 caption="Startpage."]
 
+Färgschema
+-----------------------------------
+ Monochromatic color scheme is used to express the conciseness and unity. I have a theme picture in the main page so I use color picker to select the belowing colors. All the pictures through the websites have the same tone and feeling to match the coherence of the colors which make whole websites united and harmony.
+The following colors are used by the website.
+<table style="border-spacing: 4px; border-collapse: separate; background-color: grey">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #DABFA2">
+<td style="height: 50px; width: 50px; background-color: #FEFDFC">
+<td style="height: 50px; width: 50px; background-color: #383431">
+</tr>
+</table>
+Typografi
+-----------------------------------
+Bodytext is Helvetica and site logo and navbar menu and h1-h5 has a special font "Lobster Two".
 
-This picture tells about how all the parts integrated into together to fulfill a web design.
+Designprinciper och designelement
+-----------------------------------
+Balance, alignment, proportion, movement, pattern and contrast.
 
-[FIGURE src=image/Web-Design.jpg?w=300 caption="Web Design."]
+Refererenser
+-----------------------------------
+
+Adobe Color CC
+
+The photos and pictures are from https://photo.pchouse.com.cn/.
+
+Beaird, Jason. The principles of beautiful web design. Sitepoint, 2010.
